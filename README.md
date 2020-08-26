@@ -4,5 +4,5 @@
 [gitee](https://gitee.com/netbuffer/spring-boot-admin-demo) 
 
 ![spring-boot-admin-demo](help/spring-boot-admin-demo.png)
-![spring-boot-admin-demo](help/spring-boot-admin-client.png)
-![spring-boot-admin-demo](help/monitor.png)
+![spring-boot-admin-client](help/spring-boot-admin-client.png)
+![spring-boot-admin-monitor](help/monitor.png)
