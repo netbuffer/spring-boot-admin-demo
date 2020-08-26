@@ -1,6 +1,6 @@
 package cn.netbuffer.springbootadmindemoserver;
 
-import de.codecentric.boot.admin.config.EnableAdminServer;
+import de.codecentric.boot.admin.server.config.EnableAdminServer;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -11,4 +11,5 @@ public class SpringBootAdminDemoServerApplication {
     public static void main(String[] args) {
         SpringApplication.run(SpringBootAdminDemoServerApplication.class, args);
     }
+
 }
