@@ -1,6 +1,7 @@
 server:
   port: 8000
 
+
 management:
   security:
     enabled: false
@@ -8,3 +9,7 @@ management:
 spring:
   application:
     name: spring-boot-admin-server
+  boot:
+    admin:
+      ui:
+        title: SBA-demo
