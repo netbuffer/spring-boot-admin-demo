@@ -5,6 +5,10 @@ spring:
   boot:
     admin:
       client:
+        instance:
+          # sba server use ip invoke actuator api
+          prefer-ip: true
+        # sba server url
         url: http://localhost:8000
   application:
     name: spring-boot-admin-client
@@ -16,4 +20,9 @@ management:
         include: "*"
 logging:
   file:
-    name: sbadc.log
+    name: ./sbadc.log
+  config: classpath:logback-sbadc.xml
+
+info:
+  tags:
+    environment: your-profile
