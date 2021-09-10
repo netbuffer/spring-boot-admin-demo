@@ -14,6 +14,9 @@ spring:
     name: spring-boot-admin-client
 
 management:
+  info:
+    git:
+      mode: full
   endpoints:
     web:
       exposure:
