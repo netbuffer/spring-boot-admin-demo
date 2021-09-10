@@ -2,7 +2,14 @@
 > [spring-boot-admin](https://github.com/codecentric/spring-boot-admin/):Admin UI for administration of spring boot applications  
 [github](https://github.com/netbuffer/spring-boot-admin-demo)  
 [gitee](https://gitee.com/netbuffer/spring-boot-admin-demo) 
+---
 
+1. 启动server应用,client应用
 ![spring-boot-admin-demo](help/spring-boot-admin-demo.png)
+2. 打开 [SBA](http://localhost:8000/) 管理端
 ![spring-boot-admin-client](help/spring-boot-admin-client.png)
+3. 点击client应用  
 ![spring-boot-admin-monitor](help/monitor.png)
+4. mbean管理测试  
+点击 [get appName](http://localhost:8001/appName) 测试jmx修改效果  
+![spring-boot-admin-monitor](help/jolokia-jmx.png)  

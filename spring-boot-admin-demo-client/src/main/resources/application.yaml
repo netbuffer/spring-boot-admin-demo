@@ -12,6 +12,8 @@ spring:
         url: http://localhost:8000
   application:
     name: spring-boot-admin-client
+  jmx:
+    enabled: true
 
 management:
   info:
@@ -21,6 +23,10 @@ management:
     web:
       exposure:
         include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
 logging:
   file:
     name: ./sbadc.log
