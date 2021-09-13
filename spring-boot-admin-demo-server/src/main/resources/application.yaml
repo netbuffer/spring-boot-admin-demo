@@ -10,5 +10,12 @@ spring:
     name: spring-boot-admin-server
   boot:
     admin:
+      instance-proxy:
+        # Do not carry these request headers
+        ignored-headers:
+          - User-Agent
+          - Cookie
+          - Set-Cookie
+          - Authorization
       ui:
         title: SBA-demo
