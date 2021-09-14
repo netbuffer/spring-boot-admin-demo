@@ -19,3 +19,10 @@ spring:
           - Authorization
       ui:
         title: SBA-demo
+        external-views:
+          - label: "🚀"
+            url: http://codecentric.de
+            order: 2000
+          - label: "百度"
+            url: https://www.baidu.com
+            order: 2001
