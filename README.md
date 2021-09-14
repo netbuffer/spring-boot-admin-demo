@@ -13,3 +13,6 @@
 4. mbean管理测试  
 点击 [get appName](http://localhost:8001/appName) 测试jmx修改效果  
 ![spring-boot-admin-monitor](help/jolokia-jmx.png)  
+
+---
+* `custom-ui`分支用来测试spring-boot-admin自定义UI
