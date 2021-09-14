@@ -19,6 +19,7 @@
     <modules>
         <module>spring-boot-admin-demo-client</module>
         <module>spring-boot-admin-demo-server</module>
+        <module>spring-boot-admin-custom-ui</module>
     </modules>
 
     <properties>

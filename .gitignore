@@ -23,5 +23,5 @@
 /dist/
 /nbdist/
 /.nb-gradle/
-sbadc.log
+sbadc.log*
 */target

@@ -32,6 +32,11 @@
             <artifactId>spring-boot-admin-server-ui</artifactId>
             <version>${spring-boot-admin-server.version}</version>
         </dependency>
+        <dependency>
+            <groupId>cn.netbuffer</groupId>
+            <artifactId>spring-boot-admin-custom-ui</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>
