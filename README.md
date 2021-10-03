@@ -19,3 +19,6 @@
 
 ---
 * `custom-ui`分支用来测试spring-boot-admin自定义UI
+
+### articles
+* [关于SpringBoot actuator的httptrace端点不生效问题解决办法](https://www.toutiao.com/i7013898442388865547)
