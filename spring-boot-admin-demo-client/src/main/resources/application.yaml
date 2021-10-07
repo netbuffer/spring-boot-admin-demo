@@ -12,6 +12,8 @@ spring:
         url: http://localhost:8000
   application:
     name: spring-boot-admin-client
+    admin:
+      enabled: true
   jmx:
     enabled: true
 
