@@ -4,7 +4,7 @@
     <parent>
         <groupId>cn.netbuffer</groupId>
         <artifactId>spring-boot-admin-demo-parent</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <artifactId>spring-boot-admin-demo-server</artifactId>
@@ -17,7 +17,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <spring-boot-admin-server.version>2.5.1</spring-boot-admin-server.version>
+        <spring-boot-admin-server.version>2.7.2</spring-boot-admin-server.version>
     </properties>
 
     <dependencies>
