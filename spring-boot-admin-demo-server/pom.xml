@@ -34,4 +34,40 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <finalName>${project.name}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>io.fabric8</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>0.40.1</version>
+                <configuration>
+                    <dockerHost>tcp://127.0.0.1:2375</dockerHost>
+                    <pullRegistry>registry.hub.docker.com/library</pullRegistry>
+                    <imagePullPolicy>IfNotPresent</imagePullPolicy>
+                    <authConfig>
+                        <username>${dockerRegistry.username}</username>
+                        <password>${dockerRegistry.password}</password>
+                    </authConfig>
+                    <images>
+                        <image>
+                            <name>javawiki/${project.name}:${project.version}</name>
+                            <build>
+                                <dockerFileDir>${project.basedir}</dockerFileDir>
+                            </build>
+                        </image>
+                    </images>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>docker-build</id>
+                        <goals>
+                            <goal>build</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>

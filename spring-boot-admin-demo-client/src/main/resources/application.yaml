@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: ${SBADC_SERVER_PORT:8001}
 
 spring:
   boot:
@@ -9,7 +9,7 @@ spring:
           # sba server use ip invoke actuator api
           prefer-ip: true
         # sba server url
-        url: http://localhost:8000
+        url: ${SBAC_URL:http://localhost:8000}
   application:
     name: spring-boot-admin-client
     admin:
