@@ -1,5 +1,6 @@
 package cn.netbuffer.springbootadmindemoclient.config;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jmx.export.annotation.ManagedAttribute;
 import org.springframework.jmx.export.annotation.ManagedOperation;
@@ -9,6 +10,7 @@ import org.springframework.jmx.export.annotation.ManagedResource;
 @ManagedResource(objectName = "appConfig:name=AppConfigMBean")
 public class AppConfigMBean {
 
+    @Value("${app.config.name}")
     private String appName;
     private Long max;
 

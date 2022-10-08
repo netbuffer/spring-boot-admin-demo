@@ -37,3 +37,7 @@ logging:
 info:
   tags:
     environment: your-profile
+
+app:
+  config:
+    name: spring-boot-admin-demo测试
