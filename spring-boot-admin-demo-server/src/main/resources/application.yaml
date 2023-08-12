@@ -8,6 +8,10 @@ management:
 spring:
   application:
     name: spring-boot-admin-server
+  security:
+    user:
+      name: admin
+      password: adminpwd
   boot:
     admin:
       instance-proxy:

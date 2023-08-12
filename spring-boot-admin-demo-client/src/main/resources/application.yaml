@@ -10,6 +10,8 @@ spring:
           service-host-type: ip
         # sba server url
         url: ${SBAC_URL:http://localhost:8000}
+        username: admin
+        password: adminpwd
   application:
     name: spring-boot-admin-client
     admin:
