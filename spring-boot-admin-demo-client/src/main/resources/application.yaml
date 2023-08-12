@@ -19,6 +19,8 @@ spring:
 
 management:
   info:
+    env:
+      enabled: true
     git:
       mode: full
   endpoints:
