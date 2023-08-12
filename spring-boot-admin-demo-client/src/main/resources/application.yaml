@@ -29,9 +29,13 @@ management:
     web:
       exposure:
         include: "*"
+      base-path: /J3k1GWsViT06
   endpoint:
     health:
       show-details: ALWAYS
+  server:
+    base-path: /CTiMTW8Dbztq
+    port: 8002
 
 logging:
   file:
