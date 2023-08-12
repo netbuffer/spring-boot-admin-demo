@@ -7,7 +7,7 @@ spring:
       client:
         instance:
           # sba server use ip invoke actuator api
-          prefer-ip: true
+          service-host-type: ip
         # sba server url
         url: ${SBAC_URL:http://localhost:8000}
   application:
