@@ -1,10 +1,12 @@
 # spring-boot-admin-demo
 ![](https://img.shields.io/static/v1?label=java&message=1.8&color=blue)
-![](https://img.shields.io/static/v1?label=spring-boot&message=2.5.4&color=blue)
-![](https://img.shields.io/static/v1?label=spring-boot-admin&message=2.5.1&color=green)
+![](https://img.shields.io/static/v1?label=spring-boot&message=2.7.18&color=blue)
+![](https://img.shields.io/static/v1?label=spring-boot-admin&message=2.7.16&color=green)
+
 > [spring-boot-admin](https://github.com/codecentric/spring-boot-admin/):Admin UI for administration of spring boot applications  
-[github](https://github.com/netbuffer/spring-boot-admin-demo)  
-[gitee](https://gitee.com/netbuffer/spring-boot-admin-demo) 
+
+https://github.com/netbuffer/spring-boot-admin-demo  
+https://gitee.com/netbuffer/spring-boot-admin-demo 
 ---
 
 1. 启动server应用,client应用
